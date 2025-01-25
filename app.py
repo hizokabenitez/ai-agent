@@ -8,7 +8,7 @@ nltk.download('punkt')
 def process_input(text):
     tokens = nltk.word_tokenize(text)
     return tokens
-t.title("AI Agent Interaction")
+sttitle("AI Agent Interaction")
 
 # User inputs for agent details
 name = st.text_input("Enter the agent's name")
