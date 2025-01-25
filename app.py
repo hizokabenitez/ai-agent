@@ -4,7 +4,7 @@ import nltk
 nltk.download('punkt')
 
 
-s
+
 def process_input(text):
     tokens = nltk.word_tokenize(text)
     return tokens
